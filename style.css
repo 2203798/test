@@ -1,0 +1,73 @@
+@import './media-queries.css';
+
+html {
+    overflow-y: scroll;
+}
+
+/*************************
+BlockVax Custom Design
+*************************/
+
+.bv-active {
+  color: #367bf5;
+  background-color: rgba(54, 123, 245, 0.08) !important;
+}
+
+.bv-text-primary {
+  color: #367bf5 !important;
+}
+
+.bv-shadow-bottom {
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.bv-shadow-reset {
+  box-shadow: none !important;
+}
+
+.bv-text-super-small {
+  font-size: 0.8em;
+}
+
+.bv-flex-basis-4 {
+  flex-basis: 25% !important;
+}
+
+.super-header {
+  font-size: 5rem;
+  line-height: 80%;
+}
+
+
+/*************************
+Bootstrap Modified Design
+*************************/
+
+#header-links .nav-link:hover {
+  color: rgba(0,0,0,1) !important;
+}
+
+.navlink {
+  opacity: 0 !important;
+}
+
+.nav li:hover {
+  background: rgba(54, 123, 245, 0.08);
+  /* border-radius: 0px 50px 50px 0px; */
+}
+
+.nav li a:hover {
+  color: #367bf5 !important;
+}
+
+/*************************
+Icons Modified Design
+*************************/
+.iconify {
+  font-size: 1.4em;
+}
+
+.btn-sm {
+  font-size: 0.7em !important;
+  border-radius: 8px !important;
+}

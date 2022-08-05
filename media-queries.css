@@ -1,0 +1,75 @@
+@media screen and (max-width: 450px) {
+
+    .content-wrapper + .row {
+        display: flex !important;
+        flex-direction: column !important;
+        flex-wrap: wrap !important;
+    }
+    
+    #sidebar {
+        height: 65px !important;
+        position: fixed;
+        bottom: 0;
+        border: none !important;
+        z-index: 999;
+    }
+
+    #sidebar div {
+        /* min-height: 1000px !important; */
+        background-color: #367bf5 !important;
+    }
+
+    #menu {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-evenly;
+        
+    }
+
+    #menu li:hover {
+        background-color: #367bf5 !important;
+    }
+
+    #menu a:hover {
+        color: rgba(255, 255, 255, 0.581) !important;
+    }
+
+    #menu li a {
+        color: rgba(255, 255, 255, 0.581);
+        /* outline: 1px solid red; */
+        padding: 20px;
+    }
+
+    #menu li a:visited {
+        color: rgba(255, 255, 255, 0.581);
+    }
+
+    #menu a span:nth-child(2) {
+        display: none;
+    }
+
+    .bv-active {
+        color: #ffffff !important;
+        background-color: transparent !important;
+    }
+
+    #menu li a.bv-active:hover {
+        color: #ffffff !important;
+        background-color: transparent !important;
+    }
+
+    #header-links {
+        flex-direction: column;
+        margin: 5px 20px;
+    }
+
+    #header-links a {
+        padding: 10px 15px;
+        /* text-align: center; */
+        flex-grow: 1;
+    }
+
+    .bottom-allowance {
+        margin-bottom: 50px !important;
+    }
+}

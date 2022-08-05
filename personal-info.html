@@ -1,0 +1,212 @@
+<!-- [FRONT-END] DEV STARTED: 02/08/2022 10:20PM -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap v5.2 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <!-- Bootswatch Zephyr -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.1.3/dist/zephyr/bootstrap.min.css">
+    <!-- Google Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+
+<body>
+    <!-- HEADER / NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+        <div class="container-fluid d-flex justify-content-between">
+            <div class="container d-flex justify-content-between">
+                <a class="navbar-brand bv-text-primary fw-semibold" href="#"> BLOCKVAX</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarColor03">
+                <ul class="navbar-nav me-auto">
+                    <li id="header-links" class="nav-item d-flex justify-content-between gap-2 gap-sm-0">
+                        <a class="nav-link text-black-50" href="#">About</a>
+                        <a class="nav-link text-black-50" href="#">Help</a>
+                        <a class="nav-link text-black-50" href="#">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="content-wrapper">
+        <div class="row flex-nowrap p-0 m-0">
+            <!-- Sidebar -->
+            <div id="sidebar" class="col-md-2 p-0 m-0 border-end">
+                <div class="d-flex flex-column flex-shrink-0 p-0 bg-white text-white min-vh-100 mt-md-5">
+                    <ul class="nav nav-pills flex-md-column mb-auto mb-sm-auto" id="menu">
+                        <li class="my-0">
+                            <a href="#" class="bv-active nav-link d-flex flex-row align-items-center ps-md-4 py-md-3">
+                                <span class="material-icons-outlined pe-md-3">person</span>
+                                <span>Profile</span>
+                            </a>
+                        </li>
+
+                        <li class="text-black-50 my-0">
+                            <a href="#" class="nav-link d-flex flex-row align-items-center ps-md-4 py-md-3">
+                                <span class="material-icons-outlined pe-md-3">
+                                    description
+                                </span>
+                                <span>Vaccine Records</span>
+                            </a>
+                        </li>
+
+                        <li class="text-black-50  my-0">
+                            <a href="#" class="nav-link d-flex flex-row align-items-center ps-md-4 py-md-3">
+                                <span class="material-icons-outlined pe-md-3">verified_user</span>
+                                <span>Trusted Vaccinators</span>
+                            </a>
+                        </li>
+
+
+                        <li class="text-black-50  my-0">
+                            <a href="#" class="nav-link d-flex flex-row align-items-center ps-md-4 py-md-3">
+                                <span class="material-icons-outlined pe-md-3">
+                                    lock
+                                </span>
+                                <span>Access Requests</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Content Area -->
+            <div id="content-area" class="col-md">
+                <div class="container-md container-lg px-md-5 px-lg-5 mt-md-5 mt-4">
+                    <h6 class="bv-text-primary fw-bold mb-4">GENERAL INFORMATION</h6>
+                    <div class="row flex-md-row flex-lg-row align-items-baseline mb-md-4">
+                        <div class="col-md-2 col-auto mb-md-0 mb-3">
+                            <img src="./bbm.png" class="rounded" height="100">
+                        </div>
+                        <div class="col-md-2 col-auto mb-md-0 mb-3">
+                            <p class="mb-0">Birthdate</p>
+                            <h6 class="mb-0">12/15/1995</h6>
+                        </div>
+                        <div class="col-md-2 col-auto mb-md-0 mb-3">
+                            <p class="mb-0">Gender</p>
+                            <h6 class="mb-0">FEMALE</h6>
+                        </div>
+                    </div>
+                    <hr class="">
+                    <div class="row align-items-baseline mb-md-4 mb-3">
+                        <p class="opacity-75 mb-1">NAME</p>
+                        <div class="row">
+                            <div class="col-md-2 col-12 mb-md-0 mb-3">
+                                <p class="mb-0">Last Name</p>
+                                <h6 class="mb-0">MARCOS</h6>
+                            </div>
+                            <div class="col-md-2 col-12 mb-md-0 mb-3">
+                                <p class="mb-0">First Name</p>
+                                <h6 class="mb-0">FERDINAND</h6>
+                            </div>
+                            <div class="col-md-2 col-12 mb-md-0 mb-3">
+                                <p class="mb-0">Middle Name</p>
+                                <h6 class="mb-0">ROMUALDEZ</h6>
+                            </div>
+                            <div class="col-md-2 col-12 mb-md-0 mb-3">
+                                <p class="mb-0">Suffix</p>
+                                <h6 class="mb-0">JR</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row align-items-baseline mb-md-4 mb-3">
+                        <p class="opacity-75 mb-1">ADDRESS</p>
+                        <div class="row">
+                            <div class="col-md-2 col-12 mb-md-0 mb-3">
+                                <p class="mb-0">House No./Street</p>
+                                <h6 class="mb-0">69 SANTIAGO</h6>
+                            </div>
+                            <div class="col-md-2 col-12 mb-md-0 mb-3">
+                                <p class="mb-0">Barangay</p>
+                                <h6 class="mb-0">SIDA</h6>
+                            </div>
+                            <div class="col-md-2 col-12 mb-md-0 mb-3">
+                                <p class="mb-0">City/Municipality</p>
+                                <h6 class="mb-0">BATAC</h6>
+                            </div>
+                            <div class="col-md-2 col-12 mb-md-0 mb-3">
+                                <p class="mb-0">Province</p>
+                                <h6 class="mb-0">ILOCOS NORTE</h6>
+                            </div>
+                            <div class="col-md-2 col-12 mb-md-0 mb-3">
+                                <p class="mb-0">Zip Code</p>
+                                <h6 class="mb-0">4200</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row align-items-baseline mb-md-4 mb-3">
+                        <p class="opacity-75 mb-1">CONTACT</p>
+                        <div class="row">
+                            <div class="col-md-2 col-12 mb-md-0 mb-3">
+                                <p class="mb-0">Mobile</p>
+                                <h6 class="mb-0">09694201433</h6>
+                            </div>
+                            <div class="col-md-2 col-12 mb-md-0 mb-3">
+                                <p class="mb-0">Telephone</p>
+                                <h6 class="mb-0">(048) 397 1748</h6>
+                            </div>
+                            <div class="col-md-2 col-12 mb-md-0 mb-3">
+                                <p class="mb-0">Email</p>
+                                <h6 class="mb-0">BBM@GMAIL.COM</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row align-items-baseline mb-md-4 mb-3">
+                        <p class="opacity-75 mb-1">CONTACT PERSON</p>
+                        <div class="row">
+                            <div class="col-md-2 col-12 mb-md-0 mb-3">
+                                <p class="mb-0">Full Name</p>
+                                <h6 class="mb-0">IMELDA R. MARCOS</h6>
+                            </div>
+                            <div class="col-md-2 col-12 mb-md-0 mb-3">
+                                <p class="mb-0">Contact</p>
+                                <h6 class="mb-0">09951494297</h6>
+                            </div>
+                            <div class="col-md-2 col-12 mb-md-0 mb-3">
+                                <p class="mb-0">Address</p>
+                                <h6 class="mb-0">69 SANTIAGO ST., BATAC, ILOCOS NORTE 4200</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h6 class="bv-text-primary fw-bold mb-4 mt-md-4 pt-md-4">BLOCKVAX ACCOUNT</h6>
+                    <div class="row flex-column flex-md-row flex-lg-row align-items-end mb-4 pb-5 bottom-allowance">
+                        <div class="col-md-3 col mb-2 mb-md-0 mb-lg-0">
+                            <div class="form-group">
+                                <label class="form-label">Username</label>
+                                <input class="form-control" type="text" value="bbmforunity">
+                            </div>
+                        </div>
+                        <div class="col d-md-block d-lg-block d-grid gap-2 d-flex">
+                            <button class="btn btn-primary flex-grow-1">Change Password</button>
+                            <button class="btn btn-light flex-grow-1">Save Changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap v5.2 JS Libraries -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+        <!-- Iconify -->
+        <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+        <!-- Custom JS -->
+        <script src="./app.js"></script>
+</body>
+
+</html>
